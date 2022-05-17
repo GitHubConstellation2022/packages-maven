@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.samplemaven.app</groupId>
   <artifactId>packages-maven</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
 
   <name>packages-maven</name>
   <url>https://github.com/GitHubConstellation2022/packages-maven</url>

@@ -5,7 +5,7 @@
   <a href="#books-resources">Resources</a>
 </p>
 
-This repository can be used as a reference guide/sample to enable your first maven package publish to GitHub Packages registry for maven.
+Sample repo to demonstrate working with the GitHub Maven registry
 
 # Publishing
 - For publishing via workflow, as added [here](https://github.com/GitHubConstellation2022/packages-maven/blob/main/.github/workflows/publish-maven.yml) it is very straight forward process, check out the workflow.
