@@ -7,7 +7,26 @@
 
 This repository can be used as a reference guide/sample to enable your first maven package publish to GitHub Packages registry for maven.
 
-Find the installation counterpart for this publish over [here](https://github.com/dhruvsaraiya/sample-maven-install)
+# Publishing
+- For publishing via workflow, as added [here](https://github.com/GitHubConstellation2022/packages-maven/blob/main/.github/workflows/publish-maven.yml) it is very straight forward process, check out the workflow.
+- For publishing manually, you will have to modify `~/.m2/settings.xml` for authentication, follow the steps [here](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#authenticating-to-github-packages)
+
+# Installing
+- Add the package dependencies to the dependencies element of your project pom.xml file, replacing com.packages-maven:packages-maven with your package.
+
+```
+<dependencies>
+  <dependency>
+    <groupId>com.packages-maven</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </dependency>
+</dependencies>
+```
+- Install the package.
+
+`$ mvn install`
+
 
 ## :mega: Prerequisites
 
